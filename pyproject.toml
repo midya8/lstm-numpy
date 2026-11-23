@@ -1,0 +1,13 @@
+[project]
+name = "lstm-numpy"
+version = "0.1.0"
+description = "A character-level LSTM with hand-written backprop through time, trained on two synthetic corpora and checked against an n-gram baseline."
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

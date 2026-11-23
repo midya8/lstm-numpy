@@ -1,0 +1,56 @@
+{
+  "sentences": {
+    "steps": 3000,
+    "hidden": 96,
+    "batch": 32,
+    "seq_len": 48,
+    "seed": 11,
+    "train_chars": 45829,
+    "eval_chars": 5045,
+    "train_seconds": 223.5,
+    "ce_lstm": 0.4042,
+    "ce_ngram": 0.7984,
+    "sample_lstm": [
+      "the cold horse runs near the bright birds .",
+      "the old cat sleeps near the warm birds .",
+      "the old fishs sleep .",
+      "the small dog sings over the bright horses .",
+      "the quiet fish sings ."
+    ],
+    "sample_ngram": [
+      " ds besmal hidesgrun .xhs smagoat umps .",
+      "hormover the ce s o",
+      ".ete s besigs .",
+      " eat horse smallder besid  .",
+      ".ehorses over the sdatsid eat jump near tet   ."
+    ]
+  },
+  "parens": {
+    "steps": 3000,
+    "hidden": 96,
+    "batch": 32,
+    "seq_len": 48,
+    "seed": 23,
+    "train_chars": 14720,
+    "eval_chars": 1635,
+    "train_seconds": 194.0,
+    "ce_lstm": 1.336,
+    "ce_ngram": 1.7326,
+    "balanced_lstm": 0.975,
+    "balanced_ngram": 0.285,
+    "sample_lstm": [
+      "(((4+6)*(7*3))+5)",
+      "((1*6)*(9*4))",
+      "(7*2)",
+      "(6*2)",
+      "((6+(3*0))*(8*(7+6)))"
+    ],
+    "sample_ngram": [
+      ")2)",
+      "2+4))+4)9*5))*85*())",
+      "0+08*3)+(1)+(7*2))95",
+      "9*65**(5+(((52*",
+      "(6*3)5)))"
+    ]
+  }
+}
